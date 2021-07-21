@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">BMSIT App</string>
+    <string name="bold" tools:ignore="ReferenceType">@font/playfairdisplaybold</string>
+    <string name="medium" tools:ignore="ReferenceType">@font/playfairdisplaymedium</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/playfairdisplayregular</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <string name="address">BMSIT, Doddaballapur Main Road, Avalahalli, Yelahanka, Bengaluru-560064</string>
+    <string name="login_link"><u>Login here</u></string>
+    <string name="signup_link"><u>SignUp here</u></string>
+    <string name="login_text">Login</string>
+    <string name="register_text">SignUp</string>
+    <string name="about_college">BMSIT, an Institution with a class of its own, is one of the most sought after institutes for high quality engineering education in the state. It is a well established private engineering college in bangalore recognized by the AICTE, Government of India and is affiliated to the Visvesvaraya Technological University (VTU), Belagavi, Karnataka, India.</string>
+</resources>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.home.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.smarteist.autoimageslider.SliderView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/sliderView"
+                app:sliderScrollTimeInSec="5"
+                app:sliderAutoCycleDirection="back_and_forth"
+                app:sliderIndicatorRadius="1.4dp"
+                app:sliderIndicatorSelectedColor="@color/colorPrimaryDark"
+                app:sliderIndicatorUnselectedColor="#ffffff"
+                app:sliderStartAutoCycle="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About BMSIT"
+                android:layout_marginTop="36dp"
+                android:textSize="@dimen/title_size"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="@font/playfairdisplaybold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_college"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:textSize="@dimen/title_size"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000"
+                android:fontFamily="@font/playfairdisplayregular"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:background="#000000">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="36dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DEPARTMENTS"
+                        android:letterSpacing=".06"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="5dp"
+                        android:textSize="@dimen/title_size"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#ffffff"
+                        android:fontFamily="@font/playfairdisplaybold"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#ffffff"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Computer Science"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:textSize="@dimen/text_size"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="#000000"
+                            android:layout_margin="8dp"
+                            android:fontFamily="@font/playfairdisplayregular"/>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#000000"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Information Science"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:textSize="@dimen/text_size"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="#000000"
+                            android:layout_margin="8dp"
+                            android:fontFamily="@font/playfairdisplayregular"/>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#000000"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Electronics and Communication"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:textSize="@dimen/text_size"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="#000000"
+                            android:layout_margin="8dp"
+                            android:fontFamily="@font/playfairdisplayregular"/>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#000000"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Electonics and Electrical"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:textSize="@dimen/text_size"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="#000000"
+                            android:layout_margin="8dp"
+                            android:fontFamily="@font/playfairdisplayregular"/>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#000000"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/text_margin"
+                android:background="@color/colorPrimary"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CONTACT US"
+                    android:letterSpacing="0.07"
+                    android:layout_marginTop="15dp"
+                    android:textSize="@dimen/title_size"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/playfairdisplaybold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Telephone : 080 2856 1576"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:textSize="@dimen/text_size2"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/playfairdisplayregular"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/playfairdisplayregular"
+                    android:text="@string/address"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_size2"
+                    android:layout_marginBottom="20dp"/>
+
+                <ImageView
+                    android:id="@+id/map"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:src="@drawable/map"
+                    />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,2 +1,3 @@
-include ':app'
+include ':usermodule'
+include ':adminmodule'
 rootProject.name = "Admin College App"

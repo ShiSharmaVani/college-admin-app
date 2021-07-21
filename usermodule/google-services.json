@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1065827000537",
+    "firebase_url": "https://bmsit-6f46d-default-rtdb.firebaseio.com",
+    "project_id": "bmsit-6f46d",
+    "storage_bucket": "bmsit-6f46d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065827000537:android:39ea9c090d0ce43e461ec8",
+        "android_client_info": {
+          "package_name": "com.example.admincollegeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065827000537-k7i92csmuf73nts2lk40s4to5f136fv3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOFxFDRb_5dV7KLyKPC3GZYsHJ_vEC9fg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065827000537-k7i92csmuf73nts2lk40s4to5f136fv3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065827000537:android:9fc8ac8cddc5dd55461ec8",
+        "android_client_info": {
+          "package_name": "com.example.bmsitapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065827000537-k7i92csmuf73nts2lk40s4to5f136fv3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOFxFDRb_5dV7KLyKPC3GZYsHJ_vEC9fg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065827000537-k7i92csmuf73nts2lk40s4to5f136fv3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
